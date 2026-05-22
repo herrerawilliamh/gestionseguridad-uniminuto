@@ -1,4 +1,4 @@
-# OpenClass Big Data · Presentaciones Slidev
+# OpenClass Sistemas de Gestión de la Seguridad de la Información · Presentaciones Slidev
 
 Repositorio para diseñar, organizar, exportar y publicar presentaciones académicas de Open Class usando **Slidev**, una plantilla institucional personalizada y archivos Markdown reutilizables por semana.
 
@@ -27,16 +27,16 @@ El proyecto usa tres niveles de archivos Markdown:
 
 ```txt
 slides.md                       → Portal principal del curso
-bigdata_semanaN.md              → Lanzador raíz de cada semana
-semanas/bigdata_semanaN.md      → Contenido real de cada presentación
+gestionseguridad_semanaN.md              → Lanzador raíz de cada semana
+semanas/gestionseguridad_semanaN.md      → Contenido real de cada presentación
 ```
 
 La regla central es:
 
 ```txt
 slides.md funciona como portal.
-bigdata_semanaN.md importa una semana.
-semanas/bigdata_semanaN.md contiene las diapositivas reales.
+gestionseguridad_semanaN.md importa una semana.
+semanas/gestionseguridad_semanaN.md contiene las diapositivas reales.
 ```
 
 Esto permite que los recursos públicos, fondos, imágenes, videos y estilos funcionen correctamente desde `public/`.
@@ -46,25 +46,25 @@ Esto permite que los recursos públicos, fondos, imágenes, videos y estilos fun
 ## 3. Estructura recomendada
 
 ```txt
-openclass-bigdata/
+openclass-gestionseguridad/
 ├─ slides.md
-├─ bigdata_semana1.md
-├─ bigdata_semana2.md
-├─ bigdata_semana3.md
-├─ bigdata_semana4.md
-├─ bigdata_semana5.md
-├─ bigdata_semana6.md
-├─ bigdata_semana7.md
-├─ bigdata_semana8.md
+├─ gestionseguridad_semana1.md
+├─ gestionseguridad_semana2.md
+├─ gestionseguridad_semana3.md
+├─ gestionseguridad_semana4.md
+├─ gestionseguridad_semana5.md
+├─ gestionseguridad_semana6.md
+├─ gestionseguridad_semana7.md
+├─ gestionseguridad_semana8.md
 ├─ semanas/
-│  ├─ bigdata_semana1.md
-│  ├─ bigdata_semana2.md
-│  ├─ bigdata_semana3.md
-│  ├─ bigdata_semana4.md
-│  ├─ bigdata_semana5.md
-│  ├─ bigdata_semana6.md
-│  ├─ bigdata_semana7.md
-│  └─ bigdata_semana8.md
+│  ├─ gestionseguridad_semana1.md
+│  ├─ gestionseguridad_semana2.md
+│  ├─ gestionseguridad_semana3.md
+│  ├─ gestionseguridad_semana4.md
+│  ├─ gestionseguridad_semana5.md
+│  ├─ gestionseguridad_semana6.md
+│  ├─ gestionseguridad_semana7.md
+│  └─ gestionseguridad_semana8.md
 ├─ public/
 │  ├─ fondos/
 │  ├─ imagenes/
@@ -138,14 +138,14 @@ No se debe crear una diapositiva vacía antes de la portada.
 
 ---
 
-### 4.2. `bigdata_semanaN.md`
+### 4.2. `gestionseguridad_semanaN.md`
 
 Son los lanzadores raíz.
 
 Ejemplo:
 
 ```txt
-bigdata_semana1.md
+gestionseguridad_semana1.md
 ```
 
 Contenido recomendado:
@@ -158,7 +158,7 @@ transition: fade
 routerMode: hash
 drawings:
   persist: false
-src: ./semanas/bigdata_semana1.md
+src: ./semanas/gestionseguridad_semana1.md
 ---
 ```
 
@@ -166,7 +166,7 @@ Este archivo no debe tener diapositivas adicionales. Solo importa el contenido r
 
 ---
 
-### 4.3. `semanas/bigdata_semanaN.md`
+### 4.3. `semanas/gestionseguridad_semanaN.md`
 
 Contiene la presentación real de cada semana.
 
@@ -216,17 +216,17 @@ Formato usado en este proyecto:
 ```js
 export const decks = [
   {
-    name: "openclass-bigdata",
+    name: "openclass-gestionseguridad",
     entry: "slides.md",
     out: "dist",
     base: SITE_BASE,
     exportable: true,
   },
   {
-    name: "bigdata_semana1",
-    entry: "bigdata_semana1.md",
-    out: "dist/semanas/bigdata_semana1",
-    base: withBase("semanas/bigdata_semana1/"),
+    name: "gestionseguridad_semana1",
+    entry: "gestionseguridad_semana1.md",
+    out: "dist/semanas/gestionseguridad_semana1",
+    base: withBase("semanas/gestionseguridad_semana1/"),
     exportable: true,
   },
 ];
@@ -234,7 +234,7 @@ export const decks = [
 
 Para publicar una nueva semana:
 
-1. Crear o completar `semanas/bigdata_semanaN.md`.
+1. Crear o completar `semanas/gestionseguridad_semanaN.md`.
 2. Revisar que la semana funcione localmente.
 3. Agregar o descomentar la semana en `scripts/decks.mjs`.
 4. Dejar `exportable: true` solo si también debe generar PDF y PPTX.
@@ -345,7 +345,7 @@ Contenido de la diapositiva.
 Título de la diapositiva
 
 ::image::
-<img src="/imagenes/visualizacion-bigdata.png" alt="Descripción de la imagen" />
+<img src="/imagenes/visualizacion-gestionseguridad.png" alt="Descripción de la imagen" />
 
 ::content::
 Texto de apoyo.
@@ -418,7 +418,7 @@ Ejemplos:
 
 ```txt
 public/fondos/slide-01-portada.png
-public/imagenes/visualizacion-bigdata.png
+public/imagenes/visualizacion-gestionseguridad.png
 public/videos/test.mp4
 public/descargas/
 ```
@@ -426,7 +426,7 @@ public/descargas/
 Desde Markdown o Vue se referencian así:
 
 ```html
-<img src="/imagenes/visualizacion-bigdata.png" alt="Visualización Big Data" />
+<img src="/imagenes/visualizacion-gestionseguridad.png" alt="Visualización Big Data" />
 <img src="/fondos/slide-01-portada.png" alt="Fondo institucional" />
 <video src="/videos/test.mp4" controls></video>
 ```
@@ -447,22 +447,22 @@ No usar rutas como:
 Desde `slides.md`, los enlaces a semanas deben usar rutas relativas:
 
 ```html
-<a href="./semanas/bigdata_semana1/#/1" target="_self">Semana 1 · Introducción al Big Data</a>
+<a href="./semanas/gestionseguridad_semana1/#/1" target="_self">Semana 1 · Introducción al Big Data</a>
 ```
 
 No usar:
 
 ```txt
-bigdata_semana1.md
-/semanas/bigdata_semana1/
-semanas/bigdata_semana1/index.html
+gestionseguridad_semana1.md
+/semanas/gestionseguridad_semana1/
+semanas/gestionseguridad_semana1/index.html
 ```
 
 Para descargas desde el portal:
 
 ```html
-<a href="./descargas/bigdata_semana1.pdf" target="_blank">Descargar PDF Semana 1</a>
-<a href="./descargas/bigdata_semana1.pptx" target="_blank">Descargar PPTX Semana 1</a>
+<a href="./descargas/gestionseguridad_semana1.pdf" target="_blank">Descargar PDF Semana 1</a>
+<a href="./descargas/gestionseguridad_semana1.pptx" target="_blank">Descargar PPTX Semana 1</a>
 ```
 
 Usar rutas relativas ayuda a que el sitio funcione tanto en local como en GitHub Pages.
@@ -586,14 +586,14 @@ La sección de scripts funciona así:
 {
   "scripts": {
     "dev": "slidev slides.md --open --port 3000",
-    "dev:s1": "slidev bigdata_semana1.md --open --port 3001",
-    "dev:s2": "slidev bigdata_semana2.md --open --port 3002",
-    "dev:s3": "slidev bigdata_semana3.md --open --port 3003",
-    "dev:s4": "slidev bigdata_semana4.md --open --port 3004",
-    "dev:s5": "slidev bigdata_semana5.md --open --port 3005",
-    "dev:s6": "slidev bigdata_semana6.md --open --port 3006",
-    "dev:s7": "slidev bigdata_semana7.md --open --port 3007",
-    "dev:s8": "slidev bigdata_semana8.md --open --port 3008",
+    "dev:s1": "slidev gestionseguridad_semana1.md --open --port 3001",
+    "dev:s2": "slidev gestionseguridad_semana2.md --open --port 3002",
+    "dev:s3": "slidev gestionseguridad_semana3.md --open --port 3003",
+    "dev:s4": "slidev gestionseguridad_semana4.md --open --port 3004",
+    "dev:s5": "slidev gestionseguridad_semana5.md --open --port 3005",
+    "dev:s6": "slidev gestionseguridad_semana6.md --open --port 3006",
+    "dev:s7": "slidev gestionseguridad_semana7.md --open --port 3007",
+    "dev:s8": "slidev gestionseguridad_semana8.md --open --port 3008",
     "build:all": "node scripts/build-site.mjs",
     "build:incremental": "node scripts/build-incremental.mjs",
     "export:downloads": "node scripts/export-downloads.mjs",
@@ -676,13 +676,13 @@ En local, el sitio funciona con base:
 En GitHub Pages, si el repositorio se llama:
 
 ```txt
-openclass-bigdata
+openclass-gestionseguridad
 ```
 
 la base pública normalmente será:
 
 ```txt
-/openclass-bigdata/
+/openclass-gestionseguridad/
 ```
 
 Por eso `scripts/build-site.mjs` debe leer la variable:
@@ -781,8 +781,8 @@ Causas probables:
 Solución:
 
 - En `slides.md`, poner `layout: slide-01-portada` dentro del primer bloque.
-- En `bigdata_semanaN.md`, usar únicamente el bloque con `src`.
-- En `semanas/bigdata_semanaN.md`, iniciar directamente con `layout`.
+- En `gestionseguridad_semanaN.md`, usar únicamente el bloque con `src`.
+- En `semanas/gestionseguridad_semanaN.md`, iniciar directamente con `layout`.
 
 ---
 
@@ -814,7 +814,7 @@ npm run dev:s2
 Luego exportarla sola:
 
 ```powershell
-npx slidev export bigdata_semana2.md --format pdf --timeout 120000 --wait 3000 --wait-until none --output public/descargas/bigdata_semana2.pdf
+npx slidev export gestionseguridad_semana2.md --format pdf --timeout 120000 --wait 3000 --wait-until none --output public/descargas/gestionseguridad_semana2.pdf
 ```
 
 Si falla, revisar esa semana antes de activarla en `scripts/decks.mjs`.
@@ -878,7 +878,7 @@ La carpeta `public/descargas/` puede generarse automáticamente. No es necesario
 Editar:
 
 ```txt
-semanas/bigdata_semanaN.md
+semanas/gestionseguridad_semanaN.md
 ```
 
 ### Probar una semana
@@ -905,10 +905,10 @@ Agregar un bloque como:
 
 ```js
 {
-  name: "bigdata_semana4",
-  entry: "bigdata_semana4.md",
-  out: "dist/semanas/bigdata_semana4",
-  base: withBase("semanas/bigdata_semana4/"),
+  name: "gestionseguridad_semana4",
+  entry: "gestionseguridad_semana4.md",
+  out: "dist/semanas/gestionseguridad_semana4",
+  base: withBase("semanas/gestionseguridad_semana4/"),
   exportable: true,
 }
 ```
@@ -935,7 +935,7 @@ GitHub Actions publicará el sitio automáticamente.
 
 - No editar `dist/` manualmente.
 - No compilar directamente archivos dentro de `semanas/`.
-- No poner configuración global dentro de `semanas/bigdata_semanaN.md`.
+- No poner configuración global dentro de `semanas/gestionseguridad_semanaN.md`.
 - No cerrar slots con `::`.
 - No usar layouts inexistentes.
 - No usar rutas relativas hacia `../public`.
@@ -977,10 +977,10 @@ Portal:
 slides.md
 
 Lanzadores:
-bigdata_semana1.md ... bigdata_semana8.md
+gestionseguridad_semana1.md ... gestionseguridad_semana8.md
 
 Contenido real:
-semanas/bigdata_semana1.md ... semanas/bigdata_semana8.md
+semanas/gestionseguridad_semana1.md ... semanas/gestionseguridad_semana8.md
 
 Control de publicación:
 scripts/decks.mjs

@@ -1,7 +1,7 @@
 {
   "name": "openclass-gestionseguridad",
   "version": "1.0.0",
-  "description": "Presentaciones Open Class del curso Big Data en Slidev.",
+  "description": "Presentaciones Open Class del curso Sistemas de Gestión de la Seguridad de la Información en Slidev.",
   "type": "module",
   "private": true,
   "scripts": {

@@ -1,6 +1,8 @@
 ---
 theme: ./theme/uniminuto
 title: Gestión de la Seguridad de la Información — Open Class
+favicon: /favicon.png
+codeCopy: true
 transition: fade
 routerMode: hash
 drawings:

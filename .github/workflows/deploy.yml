@@ -20,6 +20,9 @@ jobs:
     name: Build Slidev site
     runs-on: ubuntu-latest
 
+    env:
+      SITE_BASE: /${{ github.event.repository.name }}/
+
     steps:
       - name: Clonar repositorio
         uses: actions/checkout@v6
@@ -38,11 +41,9 @@ jobs:
 
       - name: Exportar PDF y PPTX
         run: npm run export:downloads
-        
+
       - name: Construir portal y semanas
         run: npm run build:all
-        env:
-          SITE_BASE: /bigdata-uniminuto/
 
       - name: Subir artefacto de GitHub Pages
         uses: actions/upload-pages-artifact@v5
@@ -56,6 +57,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    permissions:
+      pages: write
+      id-token: write
 
     steps:
       - name: Publicar en GitHub Pages

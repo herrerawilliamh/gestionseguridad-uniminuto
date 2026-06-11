@@ -97,7 +97,7 @@ import AutoFitText from '../components/AutoFitText.vue'
   left: 6%;
   top: 32%;
   width: 41%;
-  height: 50%;
+  height: 60%;
   color: #233763 !important;
   font-family: var(--font-body, 'Atkinson Hyperlegible', Arial, sans-serif);
 }

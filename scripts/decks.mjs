@@ -54,5 +54,19 @@ function normalizeBase(value) {
       base: withBase("semanas/gestionseguridad_semana4/"),
       exportable: true,
     },
+    {
+      name: "gestionseguridad_semana5",
+      entry: "gestionseguridad_semana5.md",
+      out: "dist/semanas/gestionseguridad_semana5",
+      base: withBase("semanas/gestionseguridad_semana5/"),
+      exportable: true,
+    },
+    {
+      name: "gestionseguridad_semana6",
+      entry: "gestionseguridad_semana6.md",
+      out: "dist/semanas/gestionseguridad_semana6",
+      base: withBase("semanas/gestionseguridad_semana6/"),
+      exportable: true,
+    },
     // Activa cada semana aquí cuando el contenido esté listo.
   ];

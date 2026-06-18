@@ -36,7 +36,11 @@
     "nuevo": "node scripts/nuevo-curso.mjs",
     "zip:template": "node scripts/zip-template.mjs",
     "preview:static": "npm run build:all && http-server dist -p 4173 -c-1",
-    "preview:pages": "npm run export:downloads && npm run build:all && http-server dist -p 4173 -c-1"
+    "preview:pages": "npm run export:downloads && npm run build:all && http-server dist -p 4173 -c-1",
+    "dev:all": "node scripts/dev-all.mjs",
+    "pages:build": "node scripts/build-site.mjs",
+    "pages:preview": "npx serve dist",
+    "semana": "node scripts/semana.mjs"
   },
   "dependencies": {
     "@fontsource/atkinson-hyperlegible": "^5.2.8",

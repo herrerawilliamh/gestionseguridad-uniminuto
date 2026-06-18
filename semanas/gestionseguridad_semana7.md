@@ -4,7 +4,6 @@ layout: slide-01-portada
 
 ::title::
 Gestión de la Seguridad de la Información
-Identificación y evaluación de riesgos en un SGSI
 
 ::week::
 Semana 7
@@ -26,7 +25,7 @@ layout: slide-02-titulo
 ---
 
 ::title::
-Curso: Gestión de la Seguridad de la Información
+Identificación y evaluación de riesgos en un SGSI
 
 <!--
 Notas del presentador:
@@ -44,10 +43,10 @@ layout: slide-03-imagen-izquierda
 ---
 
 ::title::
-Contextualización inicial: del control aislado al riesgo gestionado
+Del control aislado al riesgo gestionado
 
 ::image:: 
-<img src="/imagenes/favicon.png" alt="Imagen de apoyo sobre gestión de riesgos en seguridad de la información" />
+<img src="/imagenes/semana701.png" alt="Imagen de apoyo sobre gestión de riesgos en seguridad de la información" />
 
 ::content::
 Una organización no protege “todo” de la misma manera.
@@ -67,69 +66,6 @@ Explique que la seguridad de la información se relaciona con la confidencialida
 Conecte esta idea con la experiencia cotidiana de los estudiantes. Pregunte: ¿qué pasaría si una plataforma académica pierde las notas finales?, ¿qué pasaría si una empresa expone datos personales de clientes?, ¿qué pasaría si un proveedor externo queda comprometido y afecta a la organización? Estas preguntas ayudan a mostrar que el riesgo no es una abstracción; es la posibilidad de que un evento afecte objetivos reales. La norma ISO/IEC 27001 se apoya en esta lógica porque un SGSI debe establecer, implementar, mantener y mejorar procesos para gestionar la seguridad de la información, incluida la evaluación y el tratamiento de riesgos según el contexto organizacional. :contentReference[oaicite:1]{index=1}
 
 Cierre enfatizando que esta semana se concentra en aprender a mirar la organización desde sus riesgos. No se trata de alarmar, sino de anticipar, priorizar y decidir.
--->
-
----
-layout: slide-09-objetivos
----
-
-::title::
-Objetivos de aprendizaje de la sesión
-
-::content::
-Al finalizar la Open Class, el estudiante estará en capacidad de:
-
-* Diferenciar activo, amenaza, vulnerabilidad, riesgo, impacto, probabilidad y riesgo residual.
-* Aplicar una lógica básica de identificación y evaluación de riesgos en un SGSI.
-* Priorizar riesgos mediante criterios cualitativos y semicuantitativos.
-* Relacionar los resultados de una evaluación de riesgos con controles, mitigación y toma de decisiones.
-* Construir una matriz sencilla de riesgos para el caso XYZ Corp usando Python.
-* Preparar argumentos para el foro de la semana desde una perspectiva técnica y organizacional.
-
-<!--
-Notas del presentador:
-Presente los objetivos como compromisos de aprendizaje alcanzables dentro de la sesión. Es importante evitar que los estudiantes perciban la gestión de riesgos como un tema exclusivamente normativo o documental. Aclare que la clase busca desarrollar una habilidad práctica: analizar situaciones de seguridad y traducirlas en decisiones. Para ello, se revisarán conceptos básicos, ejemplos aplicados y una práctica guiada. Cada objetivo puede explicarse con una breve pregunta orientadora.
-
-Para el primer objetivo, señale que muchos errores en seguridad ocurren por confundir términos. Una amenaza no es lo mismo que una vulnerabilidad; una vulnerabilidad no es lo mismo que un riesgo; el impacto no es igual a la probabilidad; y el riesgo residual no es el riesgo inicial. Esa precisión conceptual será necesaria para responder adecuadamente las preguntas de evaluación y para participar con calidad en el foro.
-
-Para el segundo y tercer objetivo, explique que identificar riesgos implica formular escenarios claros. No basta decir “hay riesgo de hackers”. Es mejor expresar: “Existe riesgo de acceso no autorizado a repositorios de código debido a credenciales débiles y ausencia de autenticación multifactor, lo que podría exponer propiedad intelectual y datos de clientes”. Esa formulación contiene activo, amenaza, vulnerabilidad e impacto. Después, la evaluación permite asignar niveles de probabilidad e impacto para priorizar.
-
-Para el cuarto objetivo, relacione la evaluación con la toma de decisiones. Un riesgo crítico probablemente requiere controles inmediatos, responsables definidos y seguimiento; un riesgo bajo podría aceptarse temporalmente si está dentro del apetito de riesgo. Para el quinto objetivo, explique que la práctica en Python no pretende reemplazar herramientas profesionales de GRC, sino mostrar la lógica detrás de una matriz: datos de entrada, cálculo de nivel de riesgo, priorización y propuesta de tratamiento.
-
-Finalice indicando que el último objetivo conecta directamente con la evaluación de la semana: el foro exige identificar riesgos, valorar políticas, priorizar y proponer mitigaciones basadas en buenas prácticas e ISO/IEC 27001.
--->
-
----
-layout: slide-08-titulo-texto
----
-
-::title::
-Ruta de trabajo para 90 minutos
-
-::content::
-0–5 min · Bienvenida, propósito y agenda.
-
-5–15 min · Actividad de integración: “Riesgo o síntoma”.
-
-15–40 min · Desarrollo conceptual: activos, amenazas, vulnerabilidades, probabilidad, impacto y riesgo residual.
-
-40–60 min · Caso XYZ Corp, relación con evaluación y curaduría audiovisual.
-
-60–78 min · Práctica guiada: matriz de riesgos con Python.
-
-78–85 min · Socialización breve de resultados.
-
-85–90 min · Resolución de dudas, cierre académico y Encuesta de Percepción Estudiantil.
-
-<!--
-Notas del presentador:
-Explique la ruta de trabajo de manera clara para que los estudiantes comprendan el ritmo de la sesión y la finalidad de cada bloque. La tolerancia máxima de cinco minutos debe asumirse como criterio de gestión del tiempo. Por eso, es recomendable usar esta diapositiva como contrato didáctico: todos sabrán cuándo participar, cuándo escuchar, cuándo practicar y cuándo socializar. Mencione que la sesión está diseñada para ser dinámica, pero organizada; el objetivo no es saturar de teoría, sino construir comprensión progresiva.
-
-En los primeros cinco minutos, además de la bienvenida, se explicará el propósito general de la semana. Entre los minutos cinco y quince se realizará una actividad corta de integración, llamada “Riesgo o síntoma”, que permitirá activar conocimientos previos. En esta actividad los estudiantes clasificarán enunciados rápidos para distinguir si corresponden a activos, amenazas, vulnerabilidades, impactos o controles. Esta dinámica prepara el lenguaje conceptual de la clase.
-
-Entre los minutos quince y cuarenta se desarrollará el núcleo conceptual. Enfatice que esta parte no será una lectura de la norma, sino una explicación aplicada a situaciones reales. Se hablará de cómo un SGSI necesita criterios de riesgo, cómo se calcula una prioridad básica y cómo se interpreta el riesgo residual. Entre los minutos cuarenta y sesenta se usará el caso de XYZ Corp para relacionar conceptos con la evaluación y el foro. Allí se mostrarán riesgos probables, controles sugeridos y preguntas de análisis.
-
-Entre los minutos sesenta y setenta y ocho se realizará la práctica guiada. Recomiende que quienes puedan abran Google Colab o un entorno Python local. Los estudiantes que no puedan ejecutar el código pueden seguirlo como lectura guiada y centrarse en interpretar los resultados. Entre los minutos setenta y ocho y ochenta y cinco se socializarán hallazgos, y los últimos cinco minutos se reservarán para dudas puntuales, cierre académico y recordatorio de la Encuesta de Percepción Estudiantil.
 -->
 
 ---
@@ -184,7 +120,7 @@ layout: slide-05-titulo-superior-texto-derecha
 ISO/IEC 27001 y el enfoque de riesgo
 
 ::image:: 
-<img src="/imagenes/favicon.png" alt="Imagen de apoyo sobre SGSI y evaluación de riesgos" />
+<img src="/imagenes/semana702.png" alt="Imagen de apoyo sobre SGSI y evaluación de riesgos" />
 
 ::content::
 Un SGSI requiere procesos consistentes para gestionar riesgos de seguridad de la información.
@@ -270,10 +206,10 @@ layout: slide-04-imagen-derecha
 ---
 
 ::title::
-Identificación de riesgos: construir escenarios completos
+Identificación de riesgos
 
 ::image:: 
-<img src="/imagenes/favicon.png" alt="Imagen de apoyo sobre activos amenazas vulnerabilidades y riesgos" />
+<img src="/imagenes/semana703.png" alt="Imagen de apoyo sobre activos amenazas vulnerabilidades y riesgos" />
 
 ::content::
 Una formulación útil de riesgo integra:
@@ -353,7 +289,7 @@ layout: slide-06-titulo-superior-texto-izquierda
 Riesgo residual y decisiones de tratamiento
 
 ::image:: 
-<img src="/imagenes/favicon.png" alt="Imagen de apoyo sobre riesgo residual y controles de seguridad" />
+<img src="/imagenes/semana704.png" alt="Imagen de apoyo sobre riesgo residual y controles de seguridad" />
 
 ::content::
 El riesgo inherente existe antes de aplicar controles.
@@ -438,11 +374,11 @@ layout: slide-07-multimedia-con-titulo
 ---
 
 ::title::
-Video de apoyo sugerido para la sesión
+ISO 27001 | Gestión de Riesgos de Seguridad de la Información en 3 minutos.
 
 ::media::
 
-<iframe src="https://www.youtube.com/embed/NA1qVuEBvms" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1i-J3FtJYQg?si=i67WqYD1Rl5XwmXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!--
 Notas del presentador:
@@ -456,53 +392,47 @@ Como alternativas de curaduría, puede sugerir tres recursos adicionales: “ISO
 -->
 
 ---
-layout: slide-08-titulo-texto
+layout: slide-07-multimedia-con-titulo
 ---
 
 ::title::
-Curaduría de videos complementarios
+🔐 Cápsula 1 – Visión General del Marco de Ciberseguridad del NIST (CSF 2.0)
 
-::content::
-Recurso 1
-ISO 27001: Gestión de riesgos sobre la seguridad de la información
-Canal: EALDE Business School
-Momento: refuerzo conceptual antes de la práctica
-Duración aproximada: extensa; usar fragmento de 5 a 8 minutos
-Enlace: [https://www.youtube.com/watch?v=NA1qVuEBvms](https://www.youtube.com/watch?v=NA1qVuEBvms)
-Advertencia: requiere recorte y contextualización con ISO/IEC 27001:2022.
+::media::
 
-Recurso 2
-ISO/IEC 27001:2022 Seguridad de la información
-Canal: Ministerio de Producción MPCEI Ecuador
-Momento: introducción o ampliación autónoma
-Duración aproximada: verificar antes de clase
-Enlace: [https://www.youtube.com/watch?v=u2DaBdg-odc](https://www.youtube.com/watch?v=u2DaBdg-odc)
-Advertencia: revisar el fragmento más pertinente para pregrado.
-
-Recurso 3
-Claves de la ISO 27001 para la gestión de riesgos de seguridad de la información
-Canal: EALDE Business School
-Momento: ampliación para equipos del foro
-Duración aproximada: verificar antes de clase
-Enlace: [https://www.youtube.com/watch?v=NahHaJKXpkM](https://www.youtube.com/watch?v=NahHaJKXpkM)
-Advertencia: puede requerir edición por extensión.
-
-Recurso 4
-NIST Cybersecurity Framework 2.0 | Todo lo que necesitas saber
-Momento: contraste con marcos complementarios
-Duración aproximada: verificar antes de clase
-Enlace: [https://www.youtube.com/watch?v=dDHMro1NxM0](https://www.youtube.com/watch?v=dDHMro1NxM0)
-Advertencia: usar solo como marco comparativo, no como sustituto de ISO/IEC 27001.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eO0SG138iC8?si=GkyobMWVHIufflyD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!--
 Notas del presentador:
-Esta diapositiva no debe ocupar demasiado tiempo en la sesión. Su función es ofrecer una curaduría útil para estudiantes que quieran reforzar o ampliar el tema. Explique que los videos no reemplazan la lectura del aula virtual ni la norma, pero pueden ayudar a comprender con lenguaje audiovisual conceptos como SGSI, gestión de riesgos, controles y marcos de ciberseguridad. Indique que se priorizaron recursos relacionados directamente con ISO 27001, gestión de riesgos y seguridad de la información, y que los enlaces fueron verificados en resultados de búsqueda. El recurso de EALDE sobre gestión de riesgos aparece en YouTube con el título “ISO 27001: Gestión de riesgos sobre la seguridad de la información”. :contentReference[oaicite:8]{index=8}
+Use esta diapositiva como punto de apoyo audiovisual, no como reemplazo de la explicación. El video sugerido corresponde a “ISO 27001: Gestión de riesgos sobre la seguridad de la información”, asociado en los resultados consultados con EALDE Business School. El recurso es pertinente porque se enfoca directamente en la relación entre ISO 27001 y gestión de riesgos, lo cual conecta con el núcleo de la semana. En los resultados verificados aparece como video de YouTube con ese título y canal, y se observa una referencia aproximada de duración cercana a una sesión extensa, por lo que se recomienda no reproducirlo completo durante la Open Class. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
 
-Para el primer recurso, recomiende usarlo como refuerzo conceptual. No conviene reproducirlo completo durante una clase de 90 minutos si su duración es extensa. Lo adecuado es seleccionar un fragmento donde se explique la lógica de identificar, analizar, evaluar y tratar riesgos. La advertencia de recorte es importante porque los estudiantes pueden perder foco si se reproduce un webinar largo sin actividad asociada. Puede pedirles que identifiquen una idea aplicable a XYZ Corp y la escriban como mejora para la matriz.
+Para mantener la duración de la clase dentro de los 90 minutos, seleccione un fragmento de cinco a ocho minutos. Antes de la clase, revise el video y elija una parte donde se explique la importancia de identificar, analizar y tratar riesgos. El momento recomendado de uso es entre los minutos 40 y 60, justo después de presentar el caso XYZ Corp y antes de iniciar la práctica guiada. Su propósito pedagógico es reforzar la idea de que el SGSI no se limita a documentación, sino que exige decisiones basadas en riesgos.
 
-El segundo recurso, del Ministerio de Producción MPCEI Ecuador, aparece publicado en 2025 y se presenta como una explicación de principios, requisitos y mejores prácticas de ISO/IEC 27001:2022 para fortalecer protección de datos, gestión de riesgos y cumplimiento. :contentReference[oaicite:9]{index=9} Puede usarse como introducción para estudiantes que necesiten una visión general de la norma. Recomiende revisar previamente el lenguaje, duración y pertinencia exacta.
+Sugiera a los estudiantes ver el video con una pregunta guía: ¿qué elementos del video ayudan a mejorar la matriz de riesgos de XYZ Corp? Pueden tomar nota de términos como criterios de riesgo, controles, priorización, tratamiento, aceptación y seguimiento. Si el video menciona versiones anteriores o enfoques generales, contextualice que la clase se está trabajando desde una lectura actualizada de ISO/IEC 27001 y desde el caso específico de la semana. Esto es importante porque algunos recursos audiovisuales pueden ser útiles aunque no sustituyan la norma ni el material institucional.
 
-El tercer recurso, “Claves de la ISO 27001 para la gestión de riesgos de seguridad de la información”, también aparece relacionado con EALDE Business School y puede servir para ampliar metodología. :contentReference[oaicite:10]{index=10} El cuarto recurso sobre NIST CSF 2.0 puede utilizarse para contraste, porque NIST presenta su Cybersecurity Framework como una herramienta para ayudar a las organizaciones a entender y mejorar la gestión del riesgo de ciberseguridad. :contentReference[oaicite:11]{index=11} Aclare que NIST CSF no sustituye ISO/IEC 27001 en esta actividad, pero permite comparar enfoques de gobernanza, identificación, protección, detección, respuesta y recuperación.
+Como alternativas de curaduría, puede sugerir tres recursos adicionales: “ISO/IEC 27001:2022 Seguridad de la información”, del Ministerio de Producción MPCEI Ecuador, útil para introducir principios y requisitos de la norma; “Claves de la ISO 27001 para la gestión de riesgos de seguridad de la información”, de EALDE Business School, útil como ampliación técnica; y “NIST Cybersecurity Framework 2.0 | Todo lo que necesitas saber”, útil para contrastar la gestión de riesgos con un marco complementario. Estos recursos fueron identificados en resultados de búsqueda verificados, pero se recomienda revisar duración, actualidad y fragmentos antes de incorporarlos. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+-->
+
+---
+layout: slide-07-multimedia-con-titulo
+---
+
+::title::
+ISO 27001 Explicada: La Guía Definitiva para la Seguridad de la Información y Auditoría Informática
+
+::media::
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cE_a1HS18xw?si=S_HmRcB2dEZMkUBL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<!--
+Notas del presentador:
+Use esta diapositiva como punto de apoyo audiovisual, no como reemplazo de la explicación. El video sugerido corresponde a “ISO 27001: Gestión de riesgos sobre la seguridad de la información”, asociado en los resultados consultados con EALDE Business School. El recurso es pertinente porque se enfoca directamente en la relación entre ISO 27001 y gestión de riesgos, lo cual conecta con el núcleo de la semana. En los resultados verificados aparece como video de YouTube con ese título y canal, y se observa una referencia aproximada de duración cercana a una sesión extensa, por lo que se recomienda no reproducirlo completo durante la Open Class. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+
+Para mantener la duración de la clase dentro de los 90 minutos, seleccione un fragmento de cinco a ocho minutos. Antes de la clase, revise el video y elija una parte donde se explique la importancia de identificar, analizar y tratar riesgos. El momento recomendado de uso es entre los minutos 40 y 60, justo después de presentar el caso XYZ Corp y antes de iniciar la práctica guiada. Su propósito pedagógico es reforzar la idea de que el SGSI no se limita a documentación, sino que exige decisiones basadas en riesgos.
+
+Sugiera a los estudiantes ver el video con una pregunta guía: ¿qué elementos del video ayudan a mejorar la matriz de riesgos de XYZ Corp? Pueden tomar nota de términos como criterios de riesgo, controles, priorización, tratamiento, aceptación y seguimiento. Si el video menciona versiones anteriores o enfoques generales, contextualice que la clase se está trabajando desde una lectura actualizada de ISO/IEC 27001 y desde el caso específico de la semana. Esto es importante porque algunos recursos audiovisuales pueden ser útiles aunque no sustituyan la norma ni el material institucional.
+
+Como alternativas de curaduría, puede sugerir tres recursos adicionales: “ISO/IEC 27001:2022 Seguridad de la información”, del Ministerio de Producción MPCEI Ecuador, útil para introducir principios y requisitos de la norma; “Claves de la ISO 27001 para la gestión de riesgos de seguridad de la información”, de EALDE Business School, útil como ampliación técnica; y “NIST Cybersecurity Framework 2.0 | Todo lo que necesitas saber”, útil para contrastar la gestión de riesgos con un marco complementario. Estos recursos fueron identificados en resultados de búsqueda verificados, pero se recomienda revisar duración, actualidad y fragmentos antes de incorporarlos. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
 -->
 
 ---
@@ -513,7 +443,7 @@ layout: slide-03-imagen-izquierda
 Práctica guiada: matriz básica de riesgos para XYZ Corp
 
 ::image:: 
-<img src="/imagenes/favicon.png" alt="Imagen de apoyo sobre matriz de riesgos SGSI con Python" />
+<img src="/imagenes/semana705.png" alt="Imagen de apoyo sobre matriz de riesgos SGSI con Python" />
 
 ::content::
 Título de la actividad:

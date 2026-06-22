@@ -1,6 +1,6 @@
 ---
 theme: ./theme/uniminuto
-title: Gestión de Seguridad de la Información — Semana 2
+title: Gestión de la Seguridad de la Información — Semana 2 — Semana 2
 favicon: /favicon.png
 codeCopy: true
 transition: fade
@@ -9,4 +9,3 @@ drawings:
   persist: false
 src: ./semanas/gestionseguridad_semana2.md
 ---
-

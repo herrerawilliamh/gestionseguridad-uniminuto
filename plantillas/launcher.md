@@ -1,11 +1,11 @@
 ---
 theme: ./theme/uniminuto
-title: Gestión de la Seguridad de la Información — Semana 1 — Semana 1
+title: {{COURSE_NAME}} — Semana {{WEEK_NUMBER}} — {{WEEK_TITLE}}
 favicon: /favicon.png
 codeCopy: true
 transition: fade
 routerMode: hash
 drawings:
   persist: false
-src: ./semanas/gestionseguridad_semana1.md
+src: ./semanas/{{COURSE_SHORT}}_semana{{WEEK_NUMBER}}.md
 ---

@@ -1,0 +1,86 @@
+{
+  "course": {
+    "shortName": "gestionseguridad",
+    "fullName": "Gestión de la Seguridad de la Información",
+    "year": "2026",
+    "description": "Curso orientado al análisis, diseño y fortalecimiento de prácticas de gestión de la seguridad de la información, con énfasis en SGSI, riesgos, controles, auditoría, mejora continua y toma de decisiones organizacionales.",
+    "openClassLabel": "Open Class"
+  },
+  "generation": {
+    "weeksTotal": 8,
+    "activeWeeks": [1, 2, 3, 4, 5, 6, 7],
+    "overwriteLaunchers": true,
+    "overwritePortal": true,
+    "overwriteDecks": true,
+    "overwritePackageScripts": true,
+    "overwriteWeekContent": false,
+    "exportPortal": false
+  },
+  "weeks": [
+    {
+      "number": 1,
+      "title": "Semana 1",
+      "date": "2026",
+      "centralTheme": "Tema central de la semana 1",
+      "activity": "Actividad académica de aplicación",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 2,
+      "title": "Semana 2",
+      "date": "2026",
+      "centralTheme": "Tema central de la semana 2",
+      "activity": "Actividad académica de aplicación",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 3,
+      "title": "SGSI e ISO/IEC 27001",
+      "date": "2026",
+      "centralTheme": "Sistema de Gestión de Seguridad de la Información e introducción al enfoque ISO/IEC 27001",
+      "activity": "Análisis de componentes de un SGSI",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 4,
+      "title": "Auditoría interna del SGSI",
+      "date": "2026",
+      "centralTheme": "Auditoría interna, revisión de evidencias y mejora del sistema de gestión",
+      "activity": "Revisión guiada de criterios de auditoría",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 5,
+      "title": "Objetivos medibles de seguridad",
+      "date": "2026",
+      "centralTheme": "Definición de objetivos, indicadores y seguimiento de la seguridad de la información",
+      "activity": "Construcción de indicadores de seguridad",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 6,
+      "title": "Evaluación y mejora del SGSI",
+      "date": "2026",
+      "centralTheme": "Evaluación del desempeño, análisis de resultados y acciones de mejora",
+      "activity": "Preguntas de evaluación y análisis aplicado",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 7,
+      "title": "SGSI basado en riesgos",
+      "date": "Junio 18 de 2026",
+      "centralTheme": "Gestión de riesgos de seguridad de la información, riesgo inherente, controles y riesgo residual",
+      "activity": "Análisis de riesgos aplicado a una organización",
+      "duration": "90 minutos"
+    },
+    {
+      "number": 8,
+      "title": "Cierre y consolidación del curso",
+      "date": "2026",
+      "centralTheme": "Integración de aprendizajes, conclusiones y proyección profesional",
+      "activity": "Actividad de cierre y reflexión final",
+      "duration": "90 minutos",
+      "status": "draft"
+    }
+  ]
+}

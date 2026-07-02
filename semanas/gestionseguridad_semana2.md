@@ -588,3 +588,4 @@ Recuerde diligenciar la Encuesta de Percepción Estudiantil. Su retroalimentaci�
 Notas del presentador:
 Cierre la sesión con un resumen claro de las tres ideas más importantes. Agradezca la participación de los estudiantes. Recuerde diligenciar la Encuesta de Percepción Estudiantil indicando dónde encontrarla dentro del aula virtual y resaltando que es anónima. Mencione que la próxima semana se abordará el siguiente bloque temático del curso y anímelos a llegar con la evaluación de la semana 2 ya completada. Despídase cordialmente respetando el tiempo total de 90 minutos.
 -->
+

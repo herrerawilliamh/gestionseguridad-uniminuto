@@ -1112,3 +1112,4 @@ Finalice con un mensaje breve y cordial. Reitere que la seguridad de la informac
 [4]: https://www.youtube.com/watch?v=u2DaBdg-odc&utm_source=chatgpt.com "ISO/IEC 27001:2022 Seguridad de la información"
 [5]: https://www.youtube.com/watch?v=NA1qVuEBvms&utm_source=chatgpt.com "ISO 27001: Gestión de riesgos sobre la seguridad de la ..."
 [6]: https://www.youtube.com/watch?v=I94bQRGK0Ww&utm_source=chatgpt.com "PASOS IMPLANTAR LA ISO 27001"
+

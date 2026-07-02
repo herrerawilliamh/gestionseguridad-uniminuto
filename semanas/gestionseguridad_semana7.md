@@ -898,3 +898,4 @@ Ilustración académica sobre una empresa global de software con oficinas conect
 Imagen 6 · Práctica Python de matriz de riesgos
 Ilustración educativa sobre análisis de riesgos con Python. Mostrar una pantalla de código abstracto, una matriz de riesgos visual, nodos de activos, amenazas, vulnerabilidades y controles, con estudiantes universitarios analizando resultados en un entorno académico. Sin texto legible ni código real. Estilo moderno, claro, universitario, tecnológico, fondo claro, acentos azules y verdes. Formato horizontal 16:9, sin logotipos ni marcas.
 -->
+

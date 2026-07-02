@@ -981,3 +981,4 @@ Es el mecanismo que permite comprobar, aprender, corregir y mejorar.
 Notas del presentador:
 Agradecer la participación y cerrar con una idea integradora: la seguridad de la información es una práctica permanente de gestión, no un documento aislado ni una certificación decorativa. Invitar a los estudiantes a revisar la evaluación de la semana y a usar la lógica de auditoría en sus proyectos: criterio, evidencia, hallazgo, acción y mejora.
 -->
+

@@ -1090,3 +1090,4 @@ Aplicar los conceptos de mejora continua en la evaluación de la semana y en el 
 Notas del presentador:
 Cierre agradeciendo la participación. Reitere la importancia de revisar el aula virtual, desarrollar la evaluación y conservar una mirada práctica: todo SGSI necesita evidencia, medición, revisión y aprendizaje continuo.
 -->
+

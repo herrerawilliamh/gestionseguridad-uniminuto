@@ -8,7 +8,15 @@
   },
   "generation": {
     "weeksTotal": 8,
-    "activeWeeks": [1, 2, 3, 4, 5, 6, 7],
+    "activeWeeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
     "overwriteLaunchers": true,
     "overwritePortal": true,
     "overwriteDecks": true,
